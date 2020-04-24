@@ -1,0 +1,47 @@
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+/*----------Global classes.............*/
+
+a {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+
+/*----------Global classes.............*/
+
+
+/*---------navbar........*/
+
+.nav {
+    background: white;
+    padding: 0 2rem;
+    height: 3rem;
+    min-height: 40vh;
+}
+
+.nav.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav.nav-brand {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    text-decoration: none;
+}
+
+
+/*---------navbar........*/
